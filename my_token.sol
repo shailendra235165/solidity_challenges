@@ -3,10 +3,9 @@ pragma solidity 0.8.18;
 
 
 contract MyToken {
-
     // public variables here
-    string public tokenname = "SHIPRA"; 
-    string public tokenAbbrv = "SHP"; 
+    string public tokenname = "Sinhora"; 
+    string public tokenAbbrv = "SHA"; 
     uint public totalSupply = 0;
 
     // mapping variable here
@@ -24,4 +23,5 @@ contract MyToken {
             balances[_address] -= _value;
         }
     }
+    
 }
